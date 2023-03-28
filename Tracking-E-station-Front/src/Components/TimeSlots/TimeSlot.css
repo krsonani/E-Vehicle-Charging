@@ -1,0 +1,16 @@
+.k-date
+{
+    text-decoration: none ;
+    color:rgb(31, 37, 51) ;
+    font-size: 1.5rem;
+    margin-right: 10px;
+    padding: 2px;
+}
+
+.k-date:hover
+{
+   text-decoration-color: rgb(31, 37, 51);
+   color: rgb(31, 37, 51);
+   border: 1px  solid rgb(31, 37, 51);
+   border-radius: 20%;
+}

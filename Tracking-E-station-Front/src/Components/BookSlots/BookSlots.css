@@ -1,0 +1,87 @@
+.bookbox{
+
+    width: 90px;
+    height: 90px;
+    border: 2px solid rgb(97, 217, 97);
+    border-radius: 4px;
+    color: rgb(97, 217, 97);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bookbox:hover{
+
+    background-color: rgb(97, 217, 97);
+    color: white;
+    font-size: x-large;
+    font-weight:bold;
+    cursor: pointer;
+}
+
+.insidebox{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.horzBoxes{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.bookslots_s{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    margin-left: 10%;
+    /* align-items: center; */
+    width: 90%;
+}
+
+.bookboxNA{
+    width: 90px;
+    height: 90px;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+.bookboxNA:hover{
+    cursor: pointer;
+}
+
+.selectedBookbox{
+    width: 90px;
+    height: 90px;
+    border: 2px solid rgb(97, 217, 97);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(97, 217, 97);
+    color: white;
+    font-size: x-large;
+    font-weight:bold;
+    cursor: pointer;
+    transform: scale(1.1);
+    
+}
+
+.headerbookslots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
